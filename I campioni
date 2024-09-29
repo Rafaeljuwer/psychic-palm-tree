@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Globais na Itália</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #33c4ff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #ff5733;
+            margin-bottom: 1rem;
+        }
+        .section-content {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #33c4ff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .country-section {
+            background-image: url('https://source.unsplash.com/random/1600x400?world');
+            background-size: cover;
+            color: white;
+            padding: 3rem;
+        }
+        .section-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .section-box {
+            background-color: #ffcc00;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        h2 {
+            color: #ff5733;
+        }
+        .services-box {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border: 2px solid #33c4ff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Produtos Globais na Itália</h1>
+        <p>Compre produtos dos principais países enquanto mora na Itália!</p>
+    </header>
+
+    <nav>
+        <a href="#paises">Países</a>
+        <a href="#campeoes">Campeões de Vendas</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#beleza">Beleza</a>
+        <a href="#alimenticio">Alimentício</a>
+        <a href="#eletronicos">Eletrônicos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Seção Países -->
+    <section id="paises" class="country-section">
+        <div class="section-title">Países Representados</div>
+        <div class="section-content">Encontre produtos dos seus países favoritos!</div>
+        <div class="section-container">
+            <div class="section-box">Brasil</div>
+            <div class="section-box">EUA</div>
+            <div class="section-box">Japão</div>
+            <div class="section-box">França</div>
+            <div class="section-box">Itália</div>
+            <div class="section-box">México</div>
+        </div>
+    </section>
+
+    <!-- Seção Campeões de Vendas -->
+    <section id="campeoes">
+        <div class="section-title">Campeões de Vendas</div>
+        <div class="section-content">
+            Produtos que fazem sucesso em todo o mundo, agora à sua disposição na Itália!
+        </div>
+        <div class="section-container">
+            <div class="section-box">Smartphones (EUA)</div>
+            <div class="section-box">Café (Brasil)</div>
+            <div class="section-box">Vinhos (França)</div>
+            <div class="section-box">Cosméticos (Japão)</div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos">
+        <div class="section-title">Serviços</div>
+        <div class="section-content">
+            Facilitamos a compra e entrega de produtos dos principais países do mundo. Veja abaixo:
+        </div>
+        <div class="services-box">
+            <h2>Entrega Rápida</h2>
+            <p>Receba seus produtos favoritos de qualquer país com rapidez e segurança.</p>
+            <h2>Suporte Multilíngue</h2>
+            <p>Nosso atendimento fala seu idioma! Estamos aqui para ajudar.</p>
+            <h2>Pagamento Fácil</h2>
+            <p>Opções de pagamento internacionais para sua conveniência.</p>
+        </div>
+    </section>
+
+    <!-- Seção Beleza -->
+    <section id="beleza">
+        <div class="section-title">Beleza</div>
+        <div class="section-content">
+            Produtos de beleza das maiores marcas do mundo, diretamente para você.
+        </div>
+        <div class="section-container">
+            <div class="section-box">L'Oréal (França)</div>
+            <div class="section-box">Shiseido (Japão)</div>
+            <div class="section-box">Natura (Brasil)</div>
+        </div>
+    </section>
+
+    <!-- Seção Alimentício -->
+    <section id="alimenticio">
+        <div class="section-title">Alimentício</div>
+        <div class="section-content">
+            Comida internacional para você se sentir em casa, mesmo na Itália.
+        </div>
+        <div class="section-container">
+            <div class="section-box">Queijo Parmesão (Itália)</div>
+            <div class="section-box">Tacos (México)</div>
+            <div class="section-box">Chocolates (Suíça)</div>
+        </div>
+    </section>
+
+    <!-- Seção Eletrônicos -->
+    <section id="eletronicos">
+        <div class="section-title">Eletrônicos</div>
+        <div class="section-content">
+            Gadgets e inovações tecnológicas dos melhores países.
+        </div>
+        <div class="section-container">
+            <div class="section-box">Apple (EUA)</div>
+            <div class="section-box">Samsung (Coreia do Sul)</div>
+            <div class="section-box">Sony (Japão)</div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="section-title">Contato</div>
+        <div class="section-content">
+            Fale conosco! Estamos prontos para responder suas dúvidas e ajudar com suas compras internacionais.
+        </div>
+        <p>Email: contato@produtosglobais.it</p>
+        <p>Telefone: +39 123 456 789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Produtos Globais na Itália - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
